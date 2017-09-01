@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cyclerviewpager.MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <com.example.cyclerviewpager.BannerViewPager
+            android:id="@+id/vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#55FF0000"
+            />
+
+        <com.example.cyclerviewpager.CircleIndicator
+            android:id="@+id/indicator"
+            android:layout_gravity="bottom"
+            style="@style/BannerIndicator"
+            android:background="#550000FF"
+            />
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
